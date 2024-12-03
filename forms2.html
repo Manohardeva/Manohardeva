@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froma</title>
+    <style>
+        body{
+            justify-items: center;
+            background-image: linear-gradient( to right,blue,violet);
+        }
+        fieldset{
+            background-color: rgb(65, 39, 39);
+            width: 600px;
+            height: 500px;
+            justify-items: center;
+            border-radius: 20px;
+            border-color: black;
+            
+        }
+        fieldset h1{
+            text-align: center;
+            font-size: 30px;
+        }
+        div{
+            color: white;
+        }
+        .fristname input{
+            margin: 10px;
+            border-radius: 20px;
+            display: flexbox;
+            width: 250px;
+            height: 40px;
+            font-size: 18px;
+
+        }
+        .email input{
+            margin: 10px;
+            border-radius: 20px;
+            display: flexbox;
+            width: 540px;
+            height: 40px;
+        }
+        .leve input{
+            margin: 10px;
+            border-radius: 20px;
+            display: flexbox;
+            width: 540px;
+            height: 60px;
+        }
+        .button{
+           display: flex;
+           justify-content: center;
+          
+        }
+        .button button{
+            margin: 20px;
+            color:white;
+            background-color:red;
+           border-radius: 20px;
+            padding: 5px;
+            width: 100px;
+            height: 40px;
+
+            
+        }
+        label{
+            font-size: 18px;
+        }
+        .button button:hover{
+            box-shadow: 0 0 200px;
+            background-color: rgb(220, 60, 201);
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <fieldset>
+            <h1>Contact Us</h1>
+            <div class="fristname">
+                <label for="">Full name</label><br>
+                <input type="text">
+                <input type="text"><br>
+            </div><br>
+            <div class="email">
+                <label for="">Email</label><br>
+                <input type="email">
+            </div><br>
+            <div class="leve"><label for="">Leave us a few word</label><br>
+            <input type="text"></div><br>
+            <div class="button"><button>submit</button></div>
+        </fieldset>
+
+        </form>
+    </div>
+    
+</body>
+</html>
